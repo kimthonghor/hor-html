@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+</head>
+<body>
+  <!-- <div class="header-slide">
+    <div class="slide-container">
+        <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+                <div class="card">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-imgae">
+                            <img src="img/1.jpg" alt="" class="card-img">
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">David dell</h2>
+                            <p class="description">The lorem text theThe lorem text theThe lorem text theThe lorem teThe lorem text theThe lorem te </p>
+                            <button class="button">View More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div> -->
+    <!-- <div class="container">
+        <input type="radio" name="image" id="one"​ checked>
+        <input type="radio" name="image" id="two">
+        <input type="radio" name="image" id="three">
+        <input type="radio" name="image" id="four">
+        <div class="display-image">
+        </div>
+    </div> -->
+    <div class="imgBox"><img src="img/1.jpg" class="w-100" alt=""></div>
+    <ul class="thumb">
+        <li><a href="img/1.jpg" target="imgBox"><img src="img/1.jpg" alt="" width="120px"></a></li>
+        <li><a href="img/2.jpg" target="imgBox"><img src="img/2.jpg" alt="" width="120px"></a></li>
+        <li><a href="img/3.jpg" target="imgBox"><img src="img/3.jpg" alt="" width="120px"></a></li>
+        <li><a href="img/4.jpg" target="imgBox"><img src="img/4.jpg" alt="" width="120px"></a></li>
+        <li><a href="img/5.jpg" target="imgBox"><img src="img/5.jpg" alt="" width="120px"></a></li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+        <script type="text/javascript">
+         $(document).ready(function(){
+        $('.thumb a').click(function(e){
+            e.preventDefault();
+            $('.imgBox img').attr("src", $(this).attr("href"));
+        })
+    })
+ </script>
+</body>
+</html>
